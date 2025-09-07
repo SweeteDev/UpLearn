@@ -1,0 +1,280 @@
+.mt {
+  margin-top: 115px;
+}
+.nopadding {
+  padding: 0 0;
+}
+
+.title-section h5 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.title {
+  position: relative;
+  font-family: IranYekan-M;
+  font-size: 20px;
+}
+
+.title::before {
+  content: "";
+  position: absolute;
+  background-color: orange;
+  width: 28px;
+  height: 3px;
+  top: 13px;
+  left: 156px;
+}
+.title::after {
+  content: "";
+  position: absolute;
+  background-color: orange;
+  width: 28px;
+  height: 3px;
+  top: 13px;
+  left: -35px;
+}
+.title-section h5 {
+  padding-top: 35px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-body {
+  margin-top: 20px;
+}
+.card {
+  cursor: pointer;
+  background-color: white;
+  box-shadow: 1px 1px 10px 4px #e2dfdf;
+  border-radius: 15px;
+}
+.row .card-header .img-learning {
+  border-radius: 15px 15px 0 0;
+}
+.card-body {
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  padding: 15px 15px 25px 15px;
+  display: flex;
+  flex-direction: column;
+}
+.card-body .course-title {
+  background-color: white;
+  border-radius: 15px;
+  margin-bottom: 40px;
+}
+.card-body .mb {
+  margin-bottom: 60px;
+}
+.card-body a {
+  color: black;
+  font-size: 18px;
+}
+.card-body p {
+  font-size: 16px;
+  margin-top: 13px;
+  color: rgb(116, 112, 112);
+}
+.card-header {
+  position: relative;
+}
+.card-overlay {
+  position: absolute;
+}
+.card-header .card-overlay {
+  background-color: rgb(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.5s ease-in;
+  border-radius: 15px 15px 0 0;
+}
+
+.card:hover .card-overlay {
+  opacity: 1;
+}
+.course-title {
+  right: 80px;
+}
+.course-title a {
+  font-family: IranYekan-M;
+  gap: 15px;
+}
+.course-title p {
+  font-family: vazirMatn-L, Inter-R;
+}
+.overlay-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-wrap: nowrap;
+  line-height: 25px;
+}
+.overlay-content P {
+  font-size: 14px;
+  font-family: Inter-R, vazirMatn-L;
+}
+.overlay-content h6 {
+  font-family: IranYekan-L;
+  font-size: 18px;
+}
+.card-body .course-teach-rate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 7px;
+}
+.card-body .course-teach {
+  display: flex;
+  align-items: center;
+  color: gray;
+  font-family: vazirMatn-L;
+  font-size: 14px;
+  gap: 8px;
+}
+.card-body .course-rate {
+  font-size: 14px;
+  color: rgb(212, 152, 0);
+  font-family: Inter-R;
+}
+
+.space-card {
+  width: 100%;
+  height: 1px;
+  background-color: rgb(226, 223, 223);
+  margin-bottom: 30px;
+}
+.card-body .course-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.course-price .course-member {
+  color: gray;
+  font-family: Inter-R;
+}
+.course-price .price {
+  color: rgb(30 179 91);
+  font-family: IranYekan-B;
+  font-size: 18px;
+  display: flex;
+  align-items: end;
+}
+.course-price .price .fire-sell {
+  flex-direction: column;
+  padding-right: 10px;
+  padding-left: 6px;
+}
+.course-price .price .percent {
+  font-family: Inter-R;
+  background-color: rgb(30 179 91);
+  color: white;
+  padding: 11px 3px;
+  font-size: 14px;
+  border-radius: 7px;
+}
+.course-price .price .fire-sell .mian-price {
+  color: rgb(183, 15, 15);
+  font-size: 14px;
+  font-family: IranYekan-L;
+}
+.course-price .price span {
+  padding-right: 4px;
+}
+.more-course {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-family: vazirMatn-L;
+}
+.more-course span {
+  color: rgb(86, 85, 85);
+}
+.more-course span:hover {
+  color: orange;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+@media screen and (max-width: 992px) {
+  .overlay-content h6 {
+    font-size: 13px;
+  }
+  .overlay-content p {
+    font-size: 12px;
+  }
+  .course-title {
+    top: 10px;
+    right: 70px;
+  }
+  .course-title a {
+    text-wrap: nowrap;
+    font-size: 12px;
+  }
+  .course-title p {
+    text-wrap: nowrap;
+    font-size: 10px;
+  }
+  .card-body .course-title {
+    margin-bottom: 30px;
+  }
+  .card-body .course-teach {
+    font-size: 10px;
+  }
+  .card-body .course-rate {
+    font-size: 10px;
+  }
+  .course-price .course-member {
+    font-size: 10px;
+  }
+  .course-price .price {
+    font-size: 12px;
+  }
+  .course-price .price .percent {
+    padding: 9px 2px;
+    font-size: 14px;
+  }
+  .card-body .mb {
+    margin-bottom: 55px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .course-title {
+    top: 10px;
+    right: 70px;
+  }
+  .course-title a {
+    font-size: 14px;
+  }
+  .course-title p {
+    text-wrap: nowrap;
+    font-size: 12px;
+  }
+  .card-body .course-title {
+    margin-bottom: 30px;
+  }
+  .card-body .course-teach {
+    font-size: 12px;
+  }
+  .card-body .course-rate {
+    font-size: 12px;
+  }
+  .course-price .course-member {
+    font-size: 12px;
+  }
+  .course-price .price {
+    font-size: 14px;
+  }
+  .card-body .mb {
+    margin-bottom: 50px;
+  }
+}

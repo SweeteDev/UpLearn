@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ثبت نام | ورود</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="./fontawesome/css/all-fonts.min.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- FORM CONTAINER  -->
+      <div class="form-container">
+        <h2 class="form-title">فرم ورود</h2>
+        <!-- BUTTONS -->
+        <div class="header-buttons">
+          <button type="button" class="header-btn login-btn active">
+            ورود
+          </button>
+          <button type="button" class="header-btn register-btn">ثبت نام</button>
+        </div>
+
+        <!-- FORMS -->
+        <div class="form-wrapper">
+          <!-- LOGIN-FORM -->
+          <form action="#" class="form login-form active">
+            <div class="input-box">
+              <input
+                type="email"
+                name="email"
+                autocomplete="off"
+                class="form-input"
+                id="login-email-input"
+                placeholder="آدرس ایمیل"
+              />
+              <!-- alert text -->
+              <span class="alert-text" id="login-email-alert"></span>
+            </div>
+            <div class="input-box">
+              <div class="password-box-inner">
+                <input
+                  type="password"
+                  type="password"
+                  name="password"
+                  autocomplete="off"
+                  class="form-input password-input"
+                  id="login-password-input"
+                  placeholder="رمز ورود"
+                />
+                <span class="alert-text" id="login-email-alert"></span>
+
+                <!-- EYE BTN -->
+                <span class="eye-btn">
+                  <i class="fa fa-eye"></i>
+                </span>
+              </div>
+              <!-- ALERT TEXT -->
+              <span class="alert-text" id="login-password-alert"></span>
+            </div>
+
+            <!-- FORGOT-PASSWORD -->
+            <a href="#" class="forgot-pass-text">فراموشی رمز عبور </a>
+
+            <button type="submit" class="form-btn">ورود</button>
+
+            <!-- NAVIGATION TO SIGNUP FORM -->
+            <div class="navigate-link-wrapper">
+              ثبت نام نکرده اید؟
+              <a href="#" class="navigate-link" data-link="register">ثبت نام</a>
+            </div>
+          </form>
+
+          <!--------- REGISTER FORM --------->
+          <form action="#" class="form register-form">
+            <div class="input-box">
+              <input
+                type="text"
+                name="email"
+                autocomplete="off"
+                class="form-input"
+                id="register-email-input"
+                placeholder="آدرس ایمیل"
+              />
+
+              <!-- alert text -->
+              <span class="alert-text" id="register-email-alert"></span>
+            </div>
+            <div class="input-box">
+              <div class="password-box-inner">
+                <input
+                  type="password"
+                  name="password"
+                  class="form-input password-input"
+                  id="register-password-input"
+                  placeholder="رمز ورود"
+                />
+                <!-- eye button -->
+                <span class="eye-btn">
+                  <i class="fa fa-eye"></i>
+                </span>
+              </div>
+
+              <!-- alert text -->
+              <span class="alert-text" id="register-password-alert"></span>
+            </div>
+            <div class="input-box">
+              <div class="password-box-inner">
+                <input
+                  type="password"
+                  name="password"
+                  class="form-input password-input"
+                  id="register-confirm-password-input"
+                  placeholder="تکرار رمز ورود"
+                />
+                <!-- eye button -->
+                <span class="eye-btn">
+                  <i class="fa fa-eye"></i>
+                </span>
+              </div>
+              <!-- alert text -->
+              <span
+                class="alert-text"
+                id="register-confirm-password-alert"
+              ></span>
+            </div>
+
+            <button type="submit" class="form-btn">ثبت نام</button>
+
+            <!-- NAVIGAGTE TO LOGIN FORM -->
+            <div class="navigate-link-wrapper">
+              حساب کاربری دارید ؟
+              <a href="#" class="navigate-link" data-link="login">ورود</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="/js/sabt.js"></script>
+  </body>
+</html>

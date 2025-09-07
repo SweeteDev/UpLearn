@@ -1,0 +1,75 @@
+@import url(_homepage.css);
+@import url(_header.css);
+@import url(_course.css);
+@import url(_aboutus.css);
+@import url(_stat.css);
+@import url(_topic.css);
+@import url(_footer.css);
+@import url(_form.css);
+
+@font-face {
+  font-family: IranYekan-B;
+  src: url(/fonts/IranYekan/IRANYekanWebBold.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: IranYekan-L;
+  src: url(/fonts/IranYekan/IRANYekanWebLight.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: IranYekan-M;
+  src: url(/fonts/IranYekan/IRANYekanWebMedium.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: vazirMatn-B;
+  src: url(/fonts/Vazirmatn/Vazirmatn-Bold.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: vazirMatn-L;
+  src: url(/fonts/Vazirmatn/Vazirmatn-Light.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: vazirMatn-M;
+  src: url(/fonts/Vazirmatn/Vazirmatn-Medium.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Inter-R;
+  src: url(/fonts/inter-regular.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background-color: rgb(243 244 246);
+}
+.img-responsive {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.mb-100 {
+  margin-bottom: 20px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.pt-40 {
+  padding-top: 40px;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}

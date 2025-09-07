@@ -1,0 +1,44 @@
+.stat-section {
+  background-image: linear-gradient(
+    135deg,
+    rgba(255, 162, 0, 0.788),
+    rgba(228, 45, 76, 0.788)
+  );
+  height: 200px;
+  margin-top: 107px;
+  margin-bottom: 85px;
+  box-shadow: 0 0 20px 8px #d8d8d8;
+}
+.stat-wrapper {
+  text-align: center;
+}
+.stat-img {
+  height: 10vh;
+  margin-top: 15px;
+}
+.stat-wrapper div {
+  color: #ffe7c9;
+  font-size: 22px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  margin-right: 11px;
+  font-family: Inter-R;
+}
+.stat-wrapper p {
+  margin-right: 11px;
+  font-size: 18px;
+  font-family: IranYekan-M;
+  color: rgb(1, 1, 44);
+}
+@media screen and (max-width: 767px) {
+  .stat-wrapper img {
+    height: 8vh;
+    margin-top: 20px;
+  }
+  .stat-wrapper div {
+    font-size: 18px;
+  }
+  .stat-wrapper p {
+    font-size: 16px;
+  }
+}
