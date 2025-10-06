@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .main-container {
-  background: url(/img/pattern.png) repeat rgb(223, 193, 138);
+  background: url(../../img/pattern.png) repeat rgb(223, 193, 138);
   display: flex;
   min-height: 100vh;
   align-items: center;
