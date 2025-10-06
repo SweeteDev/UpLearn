@@ -18,26 +18,6 @@ navLinks.forEach((link) => {
   });
 });
 
-// navLinks.forEach((link) => {
-//   link.addEventListener("click", function (e) {
-//     e.preventDefault();
-
-//     // GET CURRENT SECTION
-//     const targetId = this.getAttribute("href").substring(1);
-//     const targetSection = document.getElementById(targetId);
-
-//     // GET HEADER HEIGHT
-//     const headerHeight = parseInt(window.getComputedStyle(header).height);
-
-//     // SCROLL TO SECTION THAT WE CLLICKED IN ITS LINKK
-//     if (targetSection) {
-//       window.scrollTo({
-//         top: targetSection.offsetTop - headerHeight,
-//         behavior: "smooth",
-//       });
-//     }
-//   });
-// });
 navLinks.forEach((link) => {
   link.addEventListener("click", function (e) {
     e.preventDefault();

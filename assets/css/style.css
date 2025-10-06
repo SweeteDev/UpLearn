@@ -9,44 +9,44 @@
 
 @font-face {
   font-family: IranYekan-B;
-  src: url(/fonts/IranYekan/IRANYekanWebBold.woff2) format("woff2");
+  src: url(../../fonts/IranYekan/IRANYekanWebBold.woff2) format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: IranYekan-L;
-  src: url(/fonts/IranYekan/IRANYekanWebLight.woff2) format("woff2");
+  src: url(../../fonts/IranYekan/IRANYekanWebLight.woff2) format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: IranYekan-M;
-  src: url(/fonts/IranYekan/IRANYekanWebMedium.woff2) format("woff2");
+  src: url(../../fonts/IranYekan/IRANYekanWebMedium.woff2) format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: vazirMatn-B;
-  src: url(/fonts/Vazirmatn/Vazirmatn-Bold.woff2) format("woff2");
+  src: url(../../fonts/Vazirmatn/Vazirmatn-Bold.woff2) format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: vazirMatn-L;
-  src: url(/fonts/Vazirmatn/Vazirmatn-Light.woff2) format("woff2");
+  src: url(../../fonts/Vazirmatn/Vazirmatn-Light.woff2) format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: vazirMatn-M;
-  src: url(/fonts/Vazirmatn/Vazirmatn-Medium.woff2) format("woff2");
+  src: url(../../fonts/Vazirmatn/Vazirmatn-Medium.woff2) format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: Inter-R;
-  src: url(/fonts/inter-regular.woff2) format("woff2");
+  src: url(../../fonts/inter-regular.woff2) format("woff2");
   font-weight: normal;
   font-style: normal;
 }
